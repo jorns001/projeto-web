@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+:root{
+    --corbg1: #ffffff;  /* body */
+    --corbg2: #92d8f0;  /* bg h1, h2 */
+    --corbg3: #76bfe9;  /* rodapé */
+    --corbg4: #0000ff;  /* btn pages, return */
+
+    --cortxt1: #0000ff; /* cor txt h1 */
+    --cortxt2: #033d26; /* cor txt h2 */
+    --cortxt3: #ffffff; /* cor txt button */
+    --cortxt4: #0c0c0c; /* cor txt rodape */
+    --cortxt5: #630cf0; /* cor txt rodape direita*/
+    --corlogo: #3f0a96; /*#ff4500; /* cor txt logo */
+
+}
+
+body{
+    width: 87%;
+    margin: 10px auto;
+}
+
+h1{
+    color: var(--cortxt1);
+    background-color: var(--corbg2);
+    text-align: center;
+    padding: 10px;
+}
+
+h2{
+    color: var(--cortxt2);
+    background-color: var(--corbg2);
+    text-align: right;
+    padding-right: 10px;
+}
+
+h3{
+    background-color: var(--corbg2);
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: var(--cortxt3);
+}
+
+.logo{
+    position: absolute;
+    top: 4%;
+    left: 8%;
+    font-family: "Yellowtail Regular";
+    font-size: 1.3em;
+    color: var(--corlogo);
+}
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    font-size: .9em;
+    font-weight: 500;
+    background-color: var(--corbg3);
+    color: var(--cortxt4); 
+    padding: 10px 24px; 
+}
+
+.direita{
+    float: right;
+    color: ;
+    padding-right: 4px;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.btnReturn{
+    float: right;
+    font-size: .9em;
+    background-color: var(--corbg4);
+    padding: 5px;
+    border-radius: 11px;
+}    
